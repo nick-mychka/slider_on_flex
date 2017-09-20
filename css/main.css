@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: #fff;
+	font-family: 'Sarpanch', sans-serif;
+}
+
+.slider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 20%;
+	transition: all 0.3s;
+}
+
+.item:hover {
+	flex-basis: 100%;
+}
+
+span {
+	font-weight: bold;
+	font-size: 2.5rem;
+	text-shadow: 2px 2px 0px #0182ea;
+}
+
+.item-1 {
+	background: url('../img/1.jpg') no-repeat center center / cover;
+}
+
+.item-2 {
+	background: url('../img/2.jpg') no-repeat center center / cover;
+}
+
+.item-3 {
+	background: url('../img/3.jpg') no-repeat center center / cover;
+}
+
+.item-4 {
+	background: url('../img/4.jpg') no-repeat center center / cover;
+}
+
+.item-5 {
+	background: url('../img/5.jpg') no-repeat center center / cover;
+}

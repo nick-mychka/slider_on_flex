@@ -1,0 +1,15 @@
+@media screen and (max-width: 720px) {
+	
+	.slider {
+		height: 100vh;
+		flex-flow: column;
+	}
+
+	.item {
+		width: 100%;
+	}
+
+	.item:hover {
+		flex-basis: 85%;
+	}
+}
